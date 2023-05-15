@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/imagens/pokeball.png" type="image/x-icon">
+    <title>Listagem pokemon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://www.pokemon.com/br/" target="_blank">
+            <img src="src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <img class="titulo" src="src/imagens/titulo.png" alt="titulo-pokemon">
+        <button id="botao-alterar-tema">
+            <img src="src/imagens/sun.png" alt="img do sol" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <a href="https://www.pokemon.com/br/pokedex/bulbasaur" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Bulbasaur</span>
+                        <span>#001</span>
+                    </div>
+                    <img src="src/imagens/bulbasaur.gif" alt="Bulbasour" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo veneno">Veneno</li>
+                    </ul>
+                    <p class="descricao">Ha uma semente de planta em suas costas desde o dia que este pokemon nasce. A
+                        semente cresce lentamente.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/ivysaur" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Ivysaur</span>
+                        <span>#002</span>
+                    </div>
+                    <img src="src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo veneno">Veneno</li>
+                    </ul>
+                    <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em
+                        suas patas traseiras.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/venusaur" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Venusaur</span>
+                        <span>#003</span>
+                    </div>
+                    <img src="src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo veneno">Veneno</li>
+                    </ul>
+                    <p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em
+                        movimento para buscar a luz solar.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/charmander" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Charmander</span>
+                        <span>#004</span>
+                    </div>
+                    <img src="src/imagens/charmander.gif" alt="charmander" class="gif">
+                    <ul class="tipos">
+                        <li class=" tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta
+                        de sua cauda.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/charmeleon" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Charmeleon</span>
+                        <span>#005</span>
+                    </div>
+                    <img src="src/imagens/charmeleon.gif" alt="charmeleon" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com
+                        garras afiadas.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/charizard" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Charizard</span>
+                        <span>#006</span>
+                    </div>
+                    <img src="src/imagens/charizard.gif" alt="Charizard" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar
+                        incêndios florestais soprando chamas.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/squirtle" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Squirtle</span>
+                        <span>#007</span>
+                    </div>
+                    <img src="src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Agua</li>
+                    </ul>
+                    <p class="descricao">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força
+                        vigorosa.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/wartortle" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Wartortle</span>
+                        <span>#008</span>
+                    </div>
+                    <img src="src/imagens/wartortle.gif" alt="Wartortle" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Agua</li>
+                    </ul>
+                    <p class="descricao">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse
+                        Wartortle é muito antigo.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/blastoise" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Blastoise</span>
+                        <span>#009</span>
+                    </div>
+                    <img src="src/imagens/blastoise.gif" alt="Blastoise" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Agua</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada,
+                        ele se retirará dentro de sua concha.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/caterpie" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Caterpie</span>
+                        <span>#010</span>
+                    </div>
+                    <img src="src/imagens/caterpie.gif" alt="Caterpie" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo inseto">Inseto</li>
+                    </ul>
+                    <p class="descricao">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os
+                        inimigos.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/pikachu" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Pikachu</span>
+                        <span>#011</span>
+                    </div>
+                    <img src="src/imagens/pikachu-electric-type.gif" alt="Pikachu" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo eletricidade">Eletricidade</li>
+                    </ul>
+                    <p class="descricao">Os bolsos em suas bochechas, identificado por discos vermelhos que decoram, são
+                        capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um
+                        raio. Eles também o usam para se defender.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/raichu" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Raichu</span>
+                        <span>#012</span>
+                    </div>
+                    <img src="src/imagens/raichu.gif" alt="Raichu" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo eletricidade">Eletricidade</li>
+                    </ul>
+                    <p class="descricao">Este é um roedor grande um Pokémon bípede. Sua pele é laranja, rabo grosso, escuro
+                        como fios de alta tensão que termina em um relâmpago e totalmente plano, também pode suportar cargas
+                        pesadas de eletricidade.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/rattata" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Ratata</span>
+                        <span>#013</span>
+                    </div>
+                    <img src="src/imagens/ratata.gif" alt="Ratata" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo normal">Normal</li>
+                    </ul>
+                    <p class="descricao">Rattata é cauteloso ao extremo. Mesmo enquanto ele está dormindo, ele escuta
+                        constantemente movendo suas orelhas ao redor. Não é exigente sobre onde ele vive - ele vai fazer seu
+                        ninho em qualquer lugar.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/eevee" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Eevee</span>
+                        <span>#014</span>
+                    </div>
+                    <img src="src/imagens/eevee.gif" alt="Evee" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo normal">Normal</li>
+                    </ul>
+                    <p class="descricao">Tem uma composição genética instável que, de repente se transforma devido ao
+                        ambiente em que vive. Radiação de várias pedras faz com que esse Pokémon evolua.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/cyndaquil" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Cyndaquil</span>
+                        <span>#015</span>
+                    </div>
+                    <img src="src/imagens/cyndaquil-pokemon.gif" alt="Evee" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Cyndaquil é pequeno, Pokémon bípede com pele azulada em cima de seu corpo, e uma cor leitosa na parte inferior. Embora chamado de fogo mouse Pokémon.</p>
+                </li>
+            </a>
+
+            <a href="https://www.pokemon.com/br/pokedex/snorlax" target="_blank">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Snorlax</span>
+                        <span>#016</span>
+                    </div>
+                    <img src="src/imagens/snorlax.gif" alt="Evee" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo normal">Normal</li>
+                    </ul>
+                    <p class="descricao">Um dia típico de Snorlax consiste em nada mais do que comer e dormir. É um Pokémon tão dócil que há crianças que usam sua barriga expansiva como um lugar para brincar.</p>
+                </li>
+            </a>
+        </ul>
+
+        <footer>
+
+        </footer>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
